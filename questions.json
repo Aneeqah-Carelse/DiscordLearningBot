@@ -1,0 +1,99 @@
+{
+    "Human_Anatomy": [
+      {
+        "question": "What is the function of the heart?",
+        "options": [
+          "Pumping blood to the lungs",
+          "Pumping blood to the rest of the body",
+          "Filtering toxins from the blood",
+          "Regulating body temperature"
+        ],
+        "answer": "Pumping blood to the rest of the body",
+        "explanation": "The heart pumps oxygenated blood to various parts of the body and deoxygenated blood to the lungs."
+      },
+      {
+        "question": "Which part of the brain is responsible for regulating vital functions such as breathing and heart rate?",
+        "options": [
+          "Cerebrum",
+          "Cerebellum",
+          "Medulla Oblongata",
+          "Thalamus"
+        ],
+        "answer": "Medulla Oblongata",
+        "explanation": "The medulla oblongata controls essential autonomic functions like breathing, heart rate, and blood pressure."
+      }
+    ],
+    "Genetics": [
+      {
+        "question": "What is the process by which DNA makes a copy of itself?",
+        "options": [
+          "Translation",
+          "Transcription",
+          "Replication",
+          "Mutation"
+        ],
+        "answer": "Replication",
+        "explanation": "DNA replication is the process by which DNA makes an exact copy of itself during cell division."
+      },
+      {
+        "question": "What is the term for an organism’s genetic makeup?",
+        "options": [
+          "Phenotype",
+          "Genotype",
+          "Homozygous",
+          "Allele"
+        ],
+        "answer": "Genotype",
+        "explanation": "The genotype refers to the genetic composition of an organism, representing the alleles inherited from its parents."
+      }
+    ],
+    "Cell_Biology": [
+      {
+        "question": "What organelle is known as the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Endoplasmic Reticulum"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria are responsible for generating energy in the form of ATP through cellular respiration."
+      },
+      {
+        "question": "Which part of the cell controls the movement of substances in and out of the cell?",
+        "options": [
+          "Nucleus",
+          "Cell membrane",
+          "Mitochondrion",
+          "Cytoplasm"
+        ],
+        "answer": "Cell membrane",
+        "explanation": "The cell membrane controls the entry and exit of substances, thus regulating the internal environment of the cell."
+      }
+    ],
+    "Ecology": [
+      {
+        "question": "What is an ecosystem?",
+        "options": [
+          "A group of organisms of the same species",
+          "A community of organisms and their environment",
+          "An energy source",
+          "The physical structure of an environment"
+        ],
+        "answer": "A community of organisms and their environment",
+        "explanation": "An ecosystem includes all living things in an area, interacting with each other and their physical environment."
+      },
+      {
+        "question": "What is the primary source of energy for almost all ecosystems?",
+        "options": [
+          "Water",
+          "The Sun",
+          "The Soil",
+          "Wind"
+        ],
+        "answer": "The Sun",
+        "explanation": "The Sun provides energy for nearly all ecosystems through photosynthesis, which drives food chains."
+      }
+    ]
+  }
+  
