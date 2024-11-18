@@ -22,6 +22,7 @@ async def on_ready():
 
 @bot.command(name="start_quiz")
 async def start_quiz(ctx, year):
+    await ctx.send("Please answer the question by using `!answer <letter>`.")
     if year not in questions:
         await ctx.send("Year not found. Available topics: 2023, 2022, 2021, etc.")
         return
