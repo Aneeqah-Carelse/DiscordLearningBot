@@ -1,29 +1,63 @@
 {
-    "Human_Anatomy": [
-      {
-        "question": "What is the function of the heart?",
-        "options": [
-          "Pumping blood to the lungs",
-          "Pumping blood to the rest of the body",
-          "Filtering toxins from the blood",
-          "Regulating body temperature"
-        ],
-        "answer": "Pumping blood to the rest of the body",
-        "explanation": "The heart pumps oxygenated blood to various parts of the body and deoxygenated blood to the lungs."
-      },
-      {
-        "question": "Which part of the brain is responsible for regulating vital functions such as breathing and heart rate?",
-        "options": [
-          "Cerebrum",
-          "Cerebellum",
-          "Medulla Oblongata",
-          "Thalamus"
-        ],
-        "answer": "Medulla Oblongata",
-        "explanation": "The medulla oblongata controls essential autonomic functions like breathing, heart rate, and blood pressure."
-      }
-    ],
-    "Genetics": [
+        "2021": [
+          {
+            "question": "What is the function of the mitochondria in a cell?",
+            "options": [
+              "A. Energy production",
+              "B. Protein synthesis",
+              "C. DNA replication",
+              "D. Cell division"
+            ],
+            "answer": "A",
+            "explanation": "The mitochondria are known as the powerhouses of the cell because they are responsible for producing energy in the form of ATP, which is essential for cell functions."
+          },
+          {
+            "question": "Which of the following is not a component of the human respiratory system?",
+            "options": [
+              "A. Trachea",
+              "B. Lungs",
+              "C. Kidneys",
+              "D. Bronchi"
+            ],
+            "answer": "C",
+            "explanation": "The kidneys are part of the excretory system, not the respiratory system. The respiratory system includes organs like the lungs, trachea, and bronchi, which facilitate breathing."
+          },
+          {
+            "question": "Which cell organelle is responsible for protein synthesis?",
+            "options": [
+              "A. Nucleus",
+              "B. Ribosomes",
+              "C. Golgi apparatus",
+              "D. Mitochondria"
+            ],
+            "answer": "B",
+            "explanation": "Ribosomes are the organelles responsible for protein synthesis. They translate genetic instructions from mRNA to assemble amino acids into proteins."
+          },
+          {
+            "question": "What is the primary function of the digestive system?",
+            "options": [
+              "A. To circulate blood",
+              "B. To break down food and absorb nutrients",
+              "C. To store oxygen",
+              "D. To eliminate waste"
+            ],
+            "answer": "B",
+            "explanation": "The digestive system breaks down food into nutrients that the body can absorb and use for energy, growth, and repair. The process involves organs like the stomach, small intestine, and liver."
+          },
+          {
+            "question": "Which of the following processes occurs in the chloroplasts of plant cells?",
+            "options": [
+              "A. Photosynthesis",
+              "B. Respiration",
+              "C. Excretion",
+              "D. Transpiration"
+            ],
+            "answer": "A",
+            "explanation": "Photosynthesis is the process that takes place in chloroplasts. It uses sunlight, carbon dioxide, and water to produce glucose and oxygen, which are vital for plant growth and energy."
+          }
+    ]
+  ,
+    "2022": [
       {
         "question": "What is the process by which DNA makes a copy of itself?",
         "options": [
@@ -47,7 +81,7 @@
         "explanation": "The genotype refers to the genetic composition of an organism, representing the alleles inherited from its parents."
       }
     ],
-    "Cell_Biology": [
+    "2023": [
       {
         "question": "What organelle is known as the powerhouse of the cell?",
         "options": [
@@ -71,7 +105,7 @@
         "explanation": "The cell membrane controls the entry and exit of substances, thus regulating the internal environment of the cell."
       }
     ],
-    "Ecology": [
+    "2020": [
       {
         "question": "What is an ecosystem?",
         "options": [

@@ -21,14 +21,14 @@ async def on_ready():
     print(f"{bot.user} is online and ready to help with Life Science!")
 
 @bot.command(name="start_quiz")
-async def start_quiz(ctx, topic):
-    if topic not in questions:
-        await ctx.send("Topic not found. Available topics: Genetics, Ecology, etc.")
+async def start_quiz(ctx, year):
+    if year not in questions:
+        await ctx.send("Year not found. Available topics: 2023, 2022, 2021, etc.")
         return
 
     # Initialize user state for the quiz
     user_state[ctx.author.id] = {
-        "topic": topic,
+        "Year": year,
         "question_index": 0
     }
 
@@ -41,20 +41,20 @@ async def send_question(ctx):
         await ctx.send("Please start a quiz first by using `!start_quiz <topic>`.")
         return
 
-    topic = state["topic"]
+    topic = state["Year"]
     question_index = state["question_index"]
     question_data = questions[topic][question_index]
     options = "\n".join([f"{i + 1}. {opt}" for i, opt in enumerate(question_data["options"])])
     await ctx.send(f"{question_data['question']}\n{options}")
 
 @bot.command(name="answer")
-async def answer(ctx, choice: int):
+async def answer(ctx, choice: str):
     state = user_state.get(ctx.author.id)
     if not state:
         await ctx.send("Please start a quiz first by using `!start_quiz <topic>`.")
         return
 
-    topic = state["topic"]
+    topic = state["Year"]
     question_index = state["question_index"]
     question_data = questions[topic][question_index]
 
