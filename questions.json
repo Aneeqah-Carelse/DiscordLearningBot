@@ -3,10 +3,10 @@
           {
             "question": "What is the function of the mitochondria in a cell?",
             "options": [
-              "A. Energy production",
-              "B. Protein synthesis",
-              "C. DNA replication",
-              "D. Cell division"
+              "Energy production",
+              "Protein synthesis",
+              "DNA replication",
+              "Cell division"
             ],
             "answer": "A",
             "explanation": "The mitochondria are known as the powerhouses of the cell because they are responsible for producing energy in the form of ATP, which is essential for cell functions."
@@ -14,10 +14,10 @@
           {
             "question": "Which of the following is not a component of the human respiratory system?",
             "options": [
-              "A. Trachea",
-              "B. Lungs",
-              "C. Kidneys",
-              "D. Bronchi"
+              "Trachea",
+              "Lungs",
+              "Kidneys",
+              "Bronchi"
             ],
             "answer": "C",
             "explanation": "The kidneys are part of the excretory system, not the respiratory system. The respiratory system includes organs like the lungs, trachea, and bronchi, which facilitate breathing."
@@ -25,10 +25,10 @@
           {
             "question": "Which cell organelle is responsible for protein synthesis?",
             "options": [
-              "A. Nucleus",
-              "B. Ribosomes",
-              "C. Golgi apparatus",
-              "D. Mitochondria"
+              "Nucleus",
+              "Ribosomes",
+              "Golgi apparatus",
+              "Mitochondria"
             ],
             "answer": "B",
             "explanation": "Ribosomes are the organelles responsible for protein synthesis. They translate genetic instructions from mRNA to assemble amino acids into proteins."
@@ -36,10 +36,10 @@
           {
             "question": "What is the primary function of the digestive system?",
             "options": [
-              "A. To circulate blood",
-              "B. To break down food and absorb nutrients",
-              "C. To store oxygen",
-              "D. To eliminate waste"
+              "To circulate blood",
+              "To break down food and absorb nutrients",
+              "To store oxygen",
+              "To eliminate waste"
             ],
             "answer": "B",
             "explanation": "The digestive system breaks down food into nutrients that the body can absorb and use for energy, growth, and repair. The process involves organs like the stomach, small intestine, and liver."
@@ -47,10 +47,10 @@
           {
             "question": "Which of the following processes occurs in the chloroplasts of plant cells?",
             "options": [
-              "A. Photosynthesis",
-              "B. Respiration",
-              "C. Excretion",
-              "D. Transpiration"
+              "Photosynthesis",
+              "Respiration",
+              "Excretion",
+              "Transpiration"
             ],
             "answer": "A",
             "explanation": "Photosynthesis is the process that takes place in chloroplasts. It uses sunlight, carbon dioxide, and water to produce glucose and oxygen, which are vital for plant growth and energy."
@@ -66,7 +66,7 @@
           "Replication",
           "Mutation"
         ],
-        "answer": "Replication",
+        "answer": "C",
         "explanation": "DNA replication is the process by which DNA makes an exact copy of itself during cell division."
       },
       {
@@ -77,7 +77,7 @@
           "Homozygous",
           "Allele"
         ],
-        "answer": "Genotype",
+        "answer": "B",
         "explanation": "The genotype refers to the genetic composition of an organism, representing the alleles inherited from its parents."
       }
     ],
@@ -90,7 +90,7 @@
           "Ribosome",
           "Endoplasmic Reticulum"
         ],
-        "answer": "Mitochondrion",
+        "answer": "B",
         "explanation": "Mitochondria are responsible for generating energy in the form of ATP through cellular respiration."
       },
       {
@@ -101,7 +101,7 @@
           "Mitochondrion",
           "Cytoplasm"
         ],
-        "answer": "Cell membrane",
+        "answer": "B",
         "explanation": "The cell membrane controls the entry and exit of substances, thus regulating the internal environment of the cell."
       }
     ],
@@ -114,7 +114,7 @@
           "An energy source",
           "The physical structure of an environment"
         ],
-        "answer": "A community of organisms and their environment",
+        "answer": "B",
         "explanation": "An ecosystem includes all living things in an area, interacting with each other and their physical environment."
       },
       {
@@ -125,7 +125,7 @@
           "The Soil",
           "Wind"
         ],
-        "answer": "The Sun",
+        "answer": "B",
         "explanation": "The Sun provides energy for nearly all ecosystems through photosynthesis, which drives food chains."
       }
     ]

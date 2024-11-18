@@ -44,25 +44,45 @@ async def send_question(ctx):
     topic = state["Year"]
     question_index = state["question_index"]
     question_data = questions[topic][question_index]
-    options = "\n".join([f"{i + 1}. {opt}" for i, opt in enumerate(question_data["options"])])
+
+    # Use letters (A, B, C, D) for options
+    options = "\n".join([f"{chr(65 + i)}. {opt}" for i, opt in enumerate(question_data["options"])])
     await ctx.send(f"{question_data['question']}\n{options}")
 
 @bot.command(name="answer")
 async def answer(ctx, choice: str):
     state = user_state.get(ctx.author.id)
     if not state:
-        await ctx.send("Please start a quiz first by using `!start_quiz <topic>`.")
+        await ctx.send("Please start a quiz first by using `!start_quiz <year>`.")
+        return
+
+    # Convert choice to uppercase to standardize input (e.g., 'a' or 'A')
+    choice = choice.upper()
+
+    # Ensure the choice is a valid letter (A, B, C, D)
+    valid_choices = ['A', 'B', 'C', 'D']
+    if choice not in valid_choices:
+        await ctx.send("Please enter a valid option (A, B, C, or D).")
         return
 
     topic = state["Year"]
     question_index = state["question_index"]
     question_data = questions[topic][question_index]
 
-    user_answer = choice - 1
-    if question_data["options"][user_answer] == question_data["answer"]:
+    # Map the letter choice (A, B, C, D) to the corresponding option index (0, 1, 2, 3)
+    letter_to_index = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
+    user_answer_index = letter_to_index[choice]
+
+    # Get the correct answer letter (A, B, C, D) and the user's selected answer
+    correct_answer = question_data["answer"]
+    user_answer = question_data["options"][user_answer_index]
+
+    # Check if the selected answer matches the correct answer
+    if correct_answer == choice:
         await ctx.send("Correct! 🎉")
     else:
-        await ctx.send(f"Incorrect. {question_data['explanation']}")
+        # Provide feedback with the incorrect answer choice and explanation
+        await ctx.send(f"Incorrect. You selected {choice}. The correct answer is {correct_answer}. {question_data['explanation']}")
 
     # Move to the next question if available
     state["question_index"] += 1
